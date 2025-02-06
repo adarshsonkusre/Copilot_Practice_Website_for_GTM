@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    font-family: 'DotGothic16', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #9acd32; /* Green background */
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00; /* Dark yellow background */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section:nth-child(even) {
+    background-color: #f0e68c; /* Light yellow background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+button {
+    background-color: #ff6600; /* Orange background */
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #e65c00; /* Darker orange background */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #ff6600; /* Orange background */
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    background-color: #e65c00; /* Darker orange background */
+}
+
+footer {
+    background-color: #ffcc00; /* Dark yellow background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
